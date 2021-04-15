@@ -4,6 +4,8 @@ import cucumber.api.java.Before;
 import cucumber.api.java.en.*;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
+import tasks.OpenUp;
+import tasks.Register;
 
 public class UtestStepDefinitions {
     @Before
@@ -13,7 +15,7 @@ public class UtestStepDefinitions {
 
     @Given("^than Adrian wants to work automation test at the utest platform$")
     public void thanAdrianWantsToWorkAutomationTestAtTheUtestPlatform() {
-
+        OnStage.theActorCalled("Adrian").wasAbleTo(OpenUp.thePage(), (Register.onThePage()));
     }
 
 

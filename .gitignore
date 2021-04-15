@@ -1,3 +1,6 @@
 rootProject.name = 'utest'
 .gradle/
 .idea/
+*.iml
+*.iws
+*.editorconfig

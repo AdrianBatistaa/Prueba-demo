@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Utest Choucair" tests="1" skipped="1" failures="0" errors="0" timestamp="2021-04-15T03:01:53" hostname="adrian-HP-14-Notebook-PC" time="0.08">
+<testsuite name="Utest Choucair" tests="1" skipped="1" failures="0" errors="0" timestamp="2021-04-15T08:00:33" hostname="adrian-HP-14-Notebook-PC" time="0.059">
   <properties/>
-  <testcase name="Register in utest" classname="Utest Choucair" time="0.08">
+  <testcase name="Register in utest" classname="Utest Choucair" time="0.059">
     <skipped/>
   </testcase>
   <system-out><![CDATA[]]></system-out>
