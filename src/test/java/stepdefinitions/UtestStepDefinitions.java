@@ -15,13 +15,13 @@ public class UtestStepDefinitions {
 
     @Given("^than Adrian wants to work automation test at the utest platform$")
     public void thanAdrianWantsToWorkAutomationTestAtTheUtestPlatform() {
-        OnStage.theActorCalled("Adrian").wasAbleTo(OpenUp.thePage(), (Register.onThePage()));
+        OnStage.theActorCalled("Adrian").wasAbleTo(OpenUp.thePage());
     }
 
 
-    @When("^he search on where register and click on the button$")
-    public void heSearchOnWhereRegisterAndClickOnTheButton() {
-
+    @When("^he search on (.*)$")
+    public void heSearchOnButtonForRegister(String join_today) {
+        OnStage.theActorInTheSpotlight().attemptsTo(Register.the(join_today));
     }
 
     @Then("^he type a form to create a new user$")
