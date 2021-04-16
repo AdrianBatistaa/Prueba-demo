@@ -2,8 +2,10 @@ package stepdefinitions;
 
 import cucumber.api.java.Before;
 import cucumber.api.java.en.*;
+import net.serenitybdd.screenplay.GivenWhenThen;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
+import questions.Answer;
 import tasks.OpenUp;
 import tasks.Register;
 
@@ -24,9 +26,9 @@ public class UtestStepDefinitions {
         OnStage.theActorInTheSpotlight().attemptsTo(Register.the(join_today));
     }
 
-    @Then("^he type a form to create a new user$")
-    public void heTypeAFormToCreateANewUser() {
-
+    @Then("^he type a form to (.*)$")
+    public void heTypeAFormToCreateANewUser(String question) {
+        OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(Answer.toThe(question)));
     }
 
 

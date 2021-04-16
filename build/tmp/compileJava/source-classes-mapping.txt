@@ -1,14 +1,16 @@
 tasks/OpenUp.java
  tasks.OpenUp
-userinterface/utestChoucairPage.java
- userinterface.utestChoucairPage
 userinterface/UtestRegisterPage2.java
  userinterface.UtestRegisterPage2
+userinterface/utestChoucairPage.java
+ userinterface.utestChoucairPage
+questions/Answer.java
+ questions.Answer
 userinterface/UtestRegisterPage.java
  userinterface.UtestRegisterPage
-userinterface/UtestRegisterPage3.java
- userinterface.UtestRegisterPage3
-userinterface/UtestRegisterPage1.java
- userinterface.UtestRegisterPage1
 tasks/Register.java
  tasks.Register
+userinterface/UtestRegisterPage1.java
+ userinterface.UtestRegisterPage1
+userinterface/UtestRegisterPage3.java
+ userinterface.UtestRegisterPage3

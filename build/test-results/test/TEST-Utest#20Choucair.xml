@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Utest Choucair" tests="1" skipped="1" failures="0" errors="0" timestamp="2021-04-16T00:58:38" hostname="adrian-HP-14-Notebook-PC" time="0.048">
+<testsuite name="Utest Choucair" tests="1" skipped="1" failures="0" errors="0" timestamp="2021-04-16T02:42:07" hostname="adrian-HP-14-Notebook-PC" time="0.057">
   <properties/>
-  <testcase name="Register in utest" classname="Utest Choucair" time="0.048">
+  <testcase name="Register in utest" classname="Utest Choucair" time="0.057">
     <skipped/>
   </testcase>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@7f602cc7
+  <system-err><![CDATA[[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@990b1af
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST PENDING
-[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@57d0cdce
-[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@533665ef
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@486529eb
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@45e3b0d3
 [Test worker] WARN net.thucydides.core.steps.BaseStepListener - testFinished: Register in utest:Given than Adrian wants to work automation test at the utest platform, When he search on button for register, Then he type a form to create a new user
 [Test worker] WARN net.thucydides.core.steps.BaseStepListener - TestOutcomes: [Register in utest:Given than Adrian wants to work automation test at the utest platform, When he search on button for register, Then he type a form to create a new user]
 [Test worker] WARN net.thucydides.core.steps.BaseStepListener - Final testOutcomes: [Register in utest:Given than Adrian wants to work automation test at the utest platform, When he search on button for register, Then he type a form to create a new user]

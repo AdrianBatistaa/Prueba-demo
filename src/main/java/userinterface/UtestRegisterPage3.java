@@ -16,7 +16,7 @@ public class UtestRegisterPage3 {
 
             .located(By.id("//body/ui-view[1]/main[1]/section[1]/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[5]/label[1]/span[1]"));
 
-    public static final Target NEXT_BUTTON4 = Target.the("button that shows us the form ")
+    public static final Target NEXT_BUTTON4 = Target.the("button that send us the form ")
 
             .located(By.id("//a[@id='laddaBtn']"));
 }
